@@ -1,0 +1,725 @@
+.cart-logo{
+    padding:20px;
+    font-size:40px;
+    color:black;
+    text-align:center;
+}
+
+.cart-container{
+    
+    border: 2px solid #7C7675;
+    border-radius: 33px 0px 23px 0px;
+    margin-left:300px;
+    margin-right:300px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.4fr 0.7fr;
+    grid-template-rows: 100px 200px 200px 200px 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Description-title Quantity-title remove-title Price-title"
+      "Product1 Quantity1 remove1 price1"
+      "Product2 Quantity2 remove2 price2"
+      "Product3 Quantity3 remove3 price3"
+      "promo-code Check-out Check-out Check-out";
+}
+
+.quan-select{
+    margin-top:50px;
+    padding:10px;
+    width:200px;
+}
+
+.button-23 {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top:50px;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-23:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+
+  
+.Description-title { 
+    grid-area: Description-title;
+    padding-top:70px;
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+    }
+
+.Quantity-title { 
+    grid-area: Quantity-title;
+    padding-top:70px;
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+    }
+
+.remove-title { 
+    grid-area: remove-title;
+    padding-top:70px;
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+}
+
+.Price-title { 
+    grid-area: Price-title;
+    padding-top:70px;
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+    }
+
+.Product1 {
+    padding-top: 40px;
+    padding-left: 100px;
+    grid-area: Product1; 
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+}
+
+
+.Product1 img{
+    float:left;
+}
+
+.product-name{
+font-size: 1em;
+}
+
+.Quantity1 { 
+    grid-area: Quantity1; 
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+}
+
+.remove1 { 
+    grid-area: remove1;
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+}
+
+.price1 { 
+    grid-area: price1;
+    padding:70px;
+    font-size:20px;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.Check-out { 
+    grid-area: Check-out;
+    padding-bottom: 30px;
+    
+}
+
+.total-container{
+    margin-left:650px;
+    font-size:20px;
+    padding-bottom: 40px;
+}
+
+
+
+.Product2 {
+padding-top: 40px;
+padding-left: 100px;
+grid-area: Product2; 
+text-align:center;
+border-bottom: 1px solid #7C7675;
+border-radius: 0px;
+border-bottom: 1px solid #7C7675;
+border-radius: 0px;
+}
+
+.Product2 img{
+float:left;
+}
+
+.Quantity2 {
+    grid-area: Quantity2;
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+}
+
+.remove2 {
+    grid-area: remove2;
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+}
+
+.price2 { 
+    grid-area: price2;
+    padding:70px;
+    font-size:20px;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.Product3 { 
+padding-top: 40px;
+padding-left: 100px;
+grid-area: Product3; 
+text-align:center;
+border-bottom: 1px solid #7C7675;
+border-radius: 0px;
+}
+
+.Product3 img{
+float:left;
+    }
+
+.Quantity3 { 
+    grid-area: Quantity3;
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+}
+
+.remove3 { 
+    grid-area: remove3;
+    text-align:center;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+}
+
+.price3 {  
+    grid-area: price3;
+    padding:70px;
+    font-size:20px;
+    border-bottom: 1px solid #7C7675;
+    border-radius: 0px;
+    text-align: center;
+
+}
+
+.promo-code { 
+grid-area: promo-code;
+margin-top: 50px;
+margin-left: 100px;
+
+}
+
+
+.promo-code form input[type=submit]{
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;   
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .2rem 1rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.promo-code form input[type=submit]:hover {
+    background-color: #374151;
+  }
+  
+.promo-code form input[type=submit]:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.button-40 {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left:655px;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media only screen and (max-width: 1765px) {
+    .cart-container{
+    
+        border: 2px solid #7C7675;
+        border-radius: 33px 0px 23px 0px;
+        margin-left:300px;
+        margin-right:300px; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.4fr 0.7fr;
+        grid-template-rows: 100px 200px 200px 200px 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "Description-title Quantity-title remove-title Price-title"
+          "Product1 Quantity1 remove1 price1"
+          "Product2 Quantity2 remove2 price2"
+          "Product3 Quantity3 remove3 price3"
+          "promo-code promo-code Check-out ";
+    }
+
+    .Check-out { 
+        grid-area: Check-out;
+        padding-bottom: 30px;
+        margin-left: -60px;
+    }
+}
+
+@media only screen and (max-width: 1712px){
+    .promo-code form input[type=submit]{
+        margin-top:10px;
+    }
+}
+
+@media only screen and (max-width:1672px){
+
+
+    .Check-out { 
+        margin-left: -150px;
+        padding-bottom: 10px;
+    }
+
+    .total-container{
+        float:left;
+    }
+
+    .promo-code{
+        margin-bottom: 30px;
+    }
+
+}
+
+  @media only screen and (max-width:1515px){
+    .cart-container{
+    
+        border: 2px solid #7C7675;
+        border-radius: 33px 0px 23px 0px;
+        margin-left:300px;
+        margin-right:300px; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.4fr 0.7fr;
+        grid-template-rows: 100px 200px 200px 200px 200px ;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "Description-title Quantity-title remove-title Price-title"
+          "Product1 Quantity1 remove1 price1"
+          "Product2 Quantity2 remove2 price2"
+          "Product3 Quantity3 remove3 price3"
+          "promo-code promo-code promo-code promo-code"
+          "Check-out Check-out Check-out Check-out";
+    }
+
+    .Check-out{
+        float:left;
+    }
+    .total-container{
+        margin-left:450px;
+        float:left;
+        padding-bottom: none;
+    }
+
+    .promo-code{
+        text-align:center;
+        margin-left:0px;
+        border-bottom: 1px solid #7C7675;
+    }
+
+    .button-40 {
+        float:left;
+        margin-top:-80px;
+    }
+}
+  
+@media only screen and (max-width: 1483px){
+    .Product1 img{
+        float:none;
+    }
+
+    .Product2 img{
+        float:none;
+    }
+
+    .Product3 img{
+        float:none;
+    }
+    
+    .Description-title b{
+        margin-left:100px;
+    }
+}
+
+@media only screen and (max-width: 1360px){
+
+    .product-name{
+        font-size:small;
+    }
+
+    .total-container{
+        margin-left:52%;
+    }
+
+    .button-40{
+        float:none;
+        margin-left:52%;
+    }
+
+    
+
+
+}
+
+@media only screen and (max-width:1302px){
+    .cart-container{
+        margin-left:10%;
+        margin-right:10%; 
+    }
+}
+
+@media only screen and (max-width:877px){
+    .cart-container{
+        margin-left:5%;
+        margin-right:5%; 
+    }
+}
+
+
+@media only screen and (max-width: 780px){
+    .cart-container{
+        margin-left:0;
+        margin-right:0; 
+        border-radius: 0;
+        display: grid; 
+        grid-template-columns: .5fr 1.2fr 1fr; 
+        grid-template-rows: 80px 100px 150px 100px 150px 100px 150px 150px 150px; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+            "Description-title Quantity-title remove-title"
+            "Product1 Quantity1 remove1"
+            "price1 . ."
+            "Product2 Quantity2 remove2"
+            "price2 . ."
+            "Product3 Quantity3 remove3"
+            "price3 . ."
+            "promo-code promo-code promo-code"
+            "Check-out Check-out Check-out"; 
+    }
+
+    .Price-title{
+        display:none;
+    }
+
+    .quan-select{
+        width:50px;
+    }
+
+    .Quantity-title{
+        margin-left: 100px;
+    }
+
+    .Quantity1{
+        margin-left: 100px;
+        }
+
+    .Quantity2{
+        margin-left: 100px;
+    }
+
+    .Quantity3{
+        margin-left: 100px;
+    }
+
+
+    .price1{
+        padding-top:105px;
+        margin-left:100px;
+        font-weight: bold;
+    }
+
+    .price2{
+        padding-top:105px;
+        margin-left:100px;
+        font-weight: bold;
+    }
+
+    .price3{
+        padding-top:105px;
+        margin-left:100px;
+        font-weight: bold;
+    }
+
+    
+    .remove-title { 
+        margin-left: 100px;
+    }
+
+    .remove1{
+        margin-left: 100px;
+    }
+
+    .remove2{
+        margin-left: 100px;
+    }
+
+    .remove3{
+        margin-left: 100px;
+    }
+
+    .promo-code{
+        text-align: center;
+    }
+
+    .Check-out{
+        margin-left: 150;
+    }
+
+
+    .button-40 {
+        padding: .75rem 1.5rem;
+    }
+
+    .Description-title{
+        border-bottom:none;
+    }
+
+    .Quantity-title{
+        border-bottom:none;
+    }
+
+    .remove-title{
+        border-bottom:none;
+    }
+
+    .Price-title{
+        border-bottom:none;
+    }
+
+    .Product1{
+        border-bottom:none;
+    }
+
+    .Quantity1{
+
+        border-bottom:none;   
+    }
+
+    .remove1{
+        border-bottom:none;
+    }
+
+    .price1{
+        border-bottom:none;
+    }
+
+    .Product2{
+        border-bottom:none;
+    }
+
+    .Quantity2{
+        border-bottom:none;
+    }
+
+    .remove2{
+        border-bottom:none;
+    }
+
+    .price2{
+        border-bottom:none;
+    }
+
+    .Product3{
+        border-bottom:none;
+    }
+
+    .Quantity3{
+        border-bottom:none;
+    }
+
+    .remove3{
+        border-bottom:none;
+    }
+
+    .price3{
+        border-bottom:none;
+    }
+
+    .promo-code{
+        border-bottom:none;
+    }
+
+    
+}
+
+
+
+@media only screen and (max-width: 677px){
+    .cart-container{
+        margin-left:0;
+        margin-right:0; 
+        border-radius: 0;
+        display: grid; 
+        grid-template-columns: 0.5fr 0.5fr ; 
+        grid-template-rows: 80px 100px 150px 100px 150px 100px 150px 250px 200px; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+            "Description-title Quantity-title "
+            "Product1 Quantity1 "
+            "price1 remove1 "
+            "Product2 Quantity2 "
+            "price2 remove2 "
+            "Product3 Quantity3 "
+            "price3 remove3 "
+            "promo-code promo-code "
+            "Check-out Check-out "; 
+    }
+
+    .remove-title{
+        display:none;
+    }
+
+
+    .Description-title{
+        padding-right: 100px;
+    }
+
+    .Product1{
+        margin-left:-100px;
+    }
+
+    .Product2{
+        margin-left:-100px;
+    }
+
+    .Product3{
+        margin-left:-100px;
+    }
+
+    .price1{
+        padding-top:90px;
+        margin-left:10px;
+    }
+
+    .price2{
+        padding-top:90px;
+        margin-left:10px;
+    }
+
+    .price3{
+        padding-top:90px;
+        margin-left:10px;
+    }
+
+    .quan-select{
+        width:50px;
+    }
+
+    .Quantity-title{
+        margin-left: -50px;
+    }
+
+    .Quantity1{
+        margin-left: -50px;
+        }
+
+    .Quantity2{
+        margin-left: -50px;
+        }
+
+    .Quantity3{
+        margin-left: -50px;
+    }
+
+
+    .remove1{
+        margin-left: -50px;
+    }
+
+    .remove2{
+        margin-left: -50px;
+    }
+
+    .remove3{
+        margin-left: -50px;
+    }
+
+}
+
+
+  

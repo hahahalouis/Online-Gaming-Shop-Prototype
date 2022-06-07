@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/payment.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <title>Payment</title>
+</head>
+<body>
+
+     <!-- Nav Section -->
+     <header>
+        <a href="home.html" class="logo-container">
+            <img src="../img/gaming.png" ><span>S</span>o<span>M</span>uch<span>F</span>un
+        </a>
+        <nav>
+            <div class="nav-container">
+                <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="gamepage.html">Games</a></li>
+                  <li><a href="pcpage.html">PC</a></li>
+                  <li><a href="gearpage.html">Gaming Gear</a></li>
+                </ul>
+                <div class="btn-container">
+                    <a href="/html/signup.html" class="login-brn"><ion-icon name="person"></ion-icon>
+                    <a href="cart.html" class="cart-brn"><ion-icon name="cart"></ion-icon> </a>
+                    <ion-icon name="earth" class="languagebtn"></ion-icon>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="close">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
+    </header>
+
+<!-- End of Nav -->
+
+<!-- payment  -->
+    <div class="container">
+
+        <div class="card-container">
+    
+            <div class="front">
+                <div class="image">
+                    <img src="../img/chip.png" alt="">
+                    <img src="../img/visa.png" alt="">
+                </div>
+                <div class="card-number-box">################</div>
+                <div class="flexbox">
+                    <div class="box">
+                        <span>card holder</span>
+                        <div class="card-holder-name">full name</div>
+                    </div>
+                    <div class="box">
+                        <span>expires</span>
+                        <div class="expiration">
+                            <span class="exp-month">mm</span>
+                            <span class="exp-year">yy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="back">
+                <div class="stripe"></div>
+                <div class="box">
+                    <span>cvv</span>
+                    <div class="cvv-box"></div>
+                    <img src="../image/visa.png" alt="">
+                </div>
+            </div>
+    
+        </div>
+    
+        <form action="home.html">
+            <div class="inputBox">
+                <span>card number</span>
+                <input type="text" maxlength="16" class="card-number-input">
+            </div>
+            <div class="inputBox">
+                <span>card holder</span>
+                <input type="text" class="card-holder-input">
+            </div>
+            <div class="flexbox">
+                <div class="inputBox">
+                    <span>expiration mm</span>
+                    <select name="" id="" class="month-input">
+                        <option value="month" selected disabled>month</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+                <div class="inputBox">
+                    <span>expiration yy</span>
+                    <select name="" id="" class="year-input">
+                        <option value="year" selected disabled>year</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                    </select>
+                </div>
+                <div class="inputBox">
+                    <span>cvv</span>
+                    <input type="text" maxlength="4" class="cvv-input">
+                </div>
+            </div>
+            <input type="submit" value="submit" class="submit-btn">
+        </form>
+    
+    </div>    
+        
+    <!-- End of payment -->
+    
+    
+    <!-- footer --> 
+    <footer>
+        <div class="art">
+            <div class="content">
+                <section>
+                <p>About Us</p><br>
+                <div class="com_add"> 
+                    Working hour:<br>
+                    <br> 
+                    Mon-Fri: 00:00-23:59<br><br>
+                    Sat-Sun: 12:00-14:00<br>
+                </div>
+                </section>
+            <section>
+            <p>Contact</p><br>
+            <div class="deve_content">
+                <div class="place">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text">8 Hung Lok Road, Hung Hom</span>
+                </div>
+                <div class="phone">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text">+852 2625 4159</span>
+                </div>
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">ccoffice@hkcc-polyu.edu.hk</span>
+                </div>
+            </div>
+            </section>
+            <section>
+              <p>Weekly Newsletter</p><br>
+              <form action="">
+                <input type="email" placeholder="Your Email here" id="" required />
+                <input type="submit" value="Subscribe Now" />
+              </form>
+              <div class="social">
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-telegram-plane"></i>
+              </div>
+            </section>
+          </div>
+          <div class="notice">
+            Copyright Protected &copy;
+            <strong>Handsome</strong>
+          </div>
+        </div>
+      </footer>
+     
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="../js/payment.js"></script>
+<script src="../js/home.js"></script> 
+</html>

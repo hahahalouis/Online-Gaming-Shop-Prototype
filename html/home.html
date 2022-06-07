@@ -3,33 +3,552 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
-    <!-- top section  -->
-    <div class="top-container">
-        <div class="logo">
-            <div class="logo-text">
-                <span>S</span>o<span>M</span>uch<span>F</span>un <img src="/img/gaming.png" >
+    <!-- Nav Section -->
+    <header>
+            <a href="home.html" class="logo-container">
+                <img src="../img/gaming.png" ><span>S</span>o<span>M</span>uch<span>F</span>un
+            </a>
+            <nav>
+                <div class="nav-container">
+                    <ul>
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="gamepage.html">Games</a></li>
+                      <li><a href="pcpage.html">PC</a></li>
+                      <li><a href="gearpage.html">Gaming Gear</a></li>
+                    </ul>
+                    <div class="btn-container">
+                        <a href="signup.html" class="login-brn"><ion-icon name="person"></ion-icon>
+                        <a href="cart.html" class="cart-brn"><ion-icon name="cart"></ion-icon> </a>
+                        <ion-icon name="earth" class="languagebtn"></ion-icon>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="close">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> 
+    </header>
+    
+    <!-- End of Nav -->
+
+    <!-- carousel by handsome -->
+    <section class="carousel">
+        <div class="container">
+            <div  id="carouselExampleCaptions"  class="carousel slide carousel-dark" data-bs-interval="2000" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-current="true" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-current="true" aria-label="Slide 5"></button>
+              </div>
+              
+            <div class="carousel-inner carousel-size inner-container">
+                <div class="carousel-item active">
+                  <img  src="../img/img4.png" class="d-block w-100 img " alt="Sailboat 1"
+                  />
+                  <a href="gearpage.html" class="button_slide1 slide_right">Click for more<br>information</a>
+                </div>
+                <div class="carousel-item">
+                <img  src="../img/img2.png" class="d-block w-100 img" alt="Sailboat 2"
+                  />
+                  <a href="gamepage.html" class="button_slide2 slide_right">Click for more<br>information</a>
+                </div>
+                <div class="carousel-item">
+                  <img  src="../img/img3.png" class="d-block w-100 img" alt="Sailboat 3"
+                  />
+                  <a href="gearpage.html" class="button_slide3 slide_right">Click for more<br>information</a>
+                </div>
+                <div class="carousel-item">
+                    <img  src="../img/img1.png" class="d-block w-100 img" alt="Sailboat 4"
+                    />
+                    <a href="gearpage.html" class="button_slide4 slide_right ">Click for more<br>information</a>
+                </div>
+                <div class="carousel-item">
+                    <img  src="../img/img5.png" class="d-block w-100 img" alt="Sailboat 5"
+                    />
+                    <a href="gearpage.html" class="button_slide5 slide_right">Click for more<br>information</a>
+                </div>
+            </div>
+
+              <!-- <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next"  type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button> -->
+            </div>
+          </div>
+    </section>    
+ <!--The end carousel by handsome -->
+  
+
+    <!--stright nav--> 
+    <div class="str-container">
+        <div class="str1">
+        <ul class="str-ul1"> 
+            <li class="str-li2" style=" color: #FF8F00;background-color: black;">Different Zone</li>
+            <li class="str-li1 first"><a href="shootinggame.html">Shooting Game Zone</a></li>
+            <li class="str-li1 first"><a href="adventure.html">Advanture Game Zone</a></li>
+            <li class="str-li1 first"><a href="sportsgame.html">Sport Game Zone</a></li>
+            <li class="str-li1 first"><a href="chassis.html">Chassis Zone</a></li>
+            <li class="str-li1 first"><a href="cpu.html">CPU Zone</a></li>
+            <li class="str-li1 first"><a href="gpu.html">GPU Zone</a></li>
+            <li class="str-li1 first"><a href="mouse.html">Mouse Zone</a></li>
+            <li class="str-li1 first"><a href="keyboard.html">Keybroad Zone</a></li>
+            <li class="str-li1 first"><a href="headphone.html">Headphone</a></li>
+            <li class="str-li1 first"><a href="monitor.html">Monitor</a></li>
+        </ul>
+        </div>
+  
+        <div class="videoframe">
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/aMfpQRoWGbE?autoplay=1&mute=1" allow="accerlerometer;autoplay;"  allowfullscreen>
+          </iframe>
+        </div>
+  
+  
+        <div class="str2">
+        <ul class="str-ul2"> 
+          <li class="str-li2" style=" color: #FF8F00;background-color: black;">Games News!!</li>
+          <li class="str-li2 first"><a href="">New game!!</a></li>
+          <li class="str-li2 first"><a href="">New gaming product!</a></li>
+          <li class="str-li2 first"><a href="">New PC component!</a></li>
+          <li class="str-li2 first"><a href="">New discount!!</a></li>
+        </ul>
+        </div>
+      </div>
+
+    <!--stright nav end-->
+
+
+
+    <!--new staff tab section-->
+    <div class="str-container2">
+        <div class="str3">
+        <ul class="str-ul3"> 
+            <li class="str-li3">Best selling item this week</li>
+            <li class="str-li3">1. Apex<br><img src="../img/Apex.png" style="width:100px"><br>price:<div class="price">$98.00</div></li>
+            <li class="str-li3">2. VAXEE Zygen NP-01S<br><img src="../img/gear/vaxee.png" style="width:100px"><br>price:<div class="price">$999.00</div></li>
+            <li class="str-li3">3. CS:GO<br><img src="../img/csgo.png"style="width:100px"><br>price:<div class="price">$99.00</div></li>
+        </ul>
+        </div>
+        <div class="top">
+
+            <section class="tab">
+                <div class="new_staff_tab_cotainer">
+                    <input type="radio" id="tabHit" name="mytab" checked="checked">
+                    <label for="tabHit">Hit Product</label>
+                    <div class="new_staff_tab">
+                        <div class="grid-container-home">
+                            <div class="item1">
+                                <a href="games/apex.html">
+                                    <div class="img-container-home">
+                                        
+                                        <img  src="../img/Apex.png" class="img-size"  />
+                                        <div class="overlay-home">
+                                            <div class="hovertext-home">
+                                                Click to read more
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <br />
+                                <a href="games/apex.html">Apex Legends</a> <br />
+                                <span class="price">$98.00</span>
+                            </div>
+            
+                            <div class="item1">
+                                <a href="games/csgo.html">
+                                    <div class="img-container-home">
+                                        <img  src="../img/csgo.png" class="img-size"  />
+                                        <div class="overlay-home">
+                                            <div class="hovertext-home">
+                                                Click to read more
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <br />
+                                <a href="games/csgo.html">CS:GO</a> <br />
+                                <span class="price">$99.00</span>
+                            </div>
+            
+                            <div class="item1">
+                                <a href="games/pubg.html">
+                                    <div class="img-container-home">
+                                        <img  src="../img/pubg.png" class="img-size"  />
+                                        <div class="overlay-home">
+                                            <div class="hovertext-home">
+                                                Click to read more
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <br />
+                                <a href="games/pubg.html">PUBG</a> <br />
+                                <span class="price">$188.00</span>
+                            </div>
+            
+                            <div class="item1">
+                                <a href="games/hl2.html">
+                                    <div class="img-container-home">
+                                        <img  src="../img/hl2.png" class="img-size"  />
+                                        <div class="overlay-home">
+                                            <div class="hovertext-home">
+                                                Click to read more
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <br />
+                                <a href="games/hl2.html">Half Life 2</a> <br />
+                                <span class="price">$70.00</span>
+                            </div>
+                            <div class="item1">
+                                <a href="games/halo.html">
+                                    <div class="img-container-home">
+                                        <img  src="../img/halo.png" class="img-size"  />
+                                        <div class="overlay-home">
+                                            <div class="hovertext-home">
+                                                Click to read more
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <br />
+                                <a href="games/halo.html">Halo:Infinite</a> <br />
+                                <span class="price">$478.00</span>
+                            </div>
+                            <div class="item1">
+                                <a href="case1.html">
+                                    <div class="img-container-home">
+                                        <img  src="../img/Chassis/Antec-NX200m.jpg" class="img-size"  />
+                                        <div class="overlay-home">
+                                            <div class="hovertext-home">
+                                                Click to read more
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <br />
+                                <a href="html/case1.html">Antec NX200m</a> <br />
+                                <span class="price">$288.00</span>
+                            </div>
+                            <div class="item1">
+                                <a href="mouse1.html">
+                                    <div class="img-container-home">
+                                        <img  src="../img/gear/vaxee.png" class="img-size"  />
+                                        <div class="overlay-home">
+                                            <div class="hovertext-home">
+                                                Click to read more
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <br />
+                                <a href="mouse1.html">VAXEE Zygen NP-01S</a> <br />
+                                <span class="price">$999.00</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                
+            </section>
+
+    <section class="tab2">
+        <div class="new_staff_tab_cotainer">
+            <input type="radio" id="tabGame" name="mytabs" checked="checked">
+            <label for="tabGame">New Game</label>
+            <div class="new_staff_tab">
+                <div class="grid-container-home">
+                    <div class="item1">
+                        <a href="games/apex.html">
+                            <div class="img-container-home">
+                                
+                                <img  src="../img/Apex.png" class="img-size"  />
+                                <div class="overlay-home">
+                                    <div class="hovertext-home">
+                                        Click to read more
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <br />
+                        <a href="games/apex.html">Apex</a> <br />
+                        <span class="price">$98.00</span>
+                    </div>
+
+                    
+                        <div class="item1">
+                            <a href="games/csgo.html">
+                                <div class="img-container-home">
+                                    
+                                    <img  src="../img/csgo.png" class="img-size"  />
+                                    <div class="overlay-home">
+                                        <div class="hovertext-home">
+                                            Click to read more
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <br />
+                            <a href="games/apex.html">CS:GO</a> <br />
+                            <span class="price">$99.00</span>
+                        </div>
+
+                        <div class="item1">
+                            <a href="games/pubg.html">
+                                <div class="img-container-home">
+                                    
+                                    <img  src="../img/pubg.png" class="img-size"  />
+                                    <div class="overlay-home">
+                                        <div class="hovertext-home">
+                                            Click to read more
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <br />
+                            <a href="games/apex.html">PUBG</a> <br />
+                            <span class="price">$188.00</span>
+                        </div>
+
+                </div>
+            </div>
+
+            <input type="radio" id="tabPC" name="mytabs">
+            <label for="tabPC">New PC</label>
+            <div class="new_staff_tab">
+                <div class="grid-container-home">
+                    <div class="item1">
+                        <a href="case1.html">
+                            <div class="img-container-home">
+                                
+                                <img  src="../img/Chassis/Antec-NX200m.jpg" class="img-size"  />
+                                <div class="overlay-home">
+                                    <div class="hovertext-home">
+                                        Click to read more
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <br />
+                        <a href="case1.html">Antec NX200m</a> <br />
+                        <span class="price">$288.00</span>
+                    </div>
+
+                    <div class="item1">
+                        <a href="case1.html">
+                            <div class="img-container-home">
+                                
+                                <img  src="../img/Chassis/Cooler-Master-MasterBox-Q500L.jpg" class="img-size"  />
+                                <div class="overlay-home">
+                                    <div class="hovertext-home">
+                                        Click to read more
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <br />
+                        <a href="case1.html">Cooler Master MasterBox Q500L</a> <br />
+                        <span class="price">$380.00</span>
+                    </div>
+
+                    <div class="item1">
+                        <a href="case1.html">
+                            <div class="img-container-home">
+                                
+                                <img  src="../img/Chassis/Corsair-4000D-AIRFLOW-Tempered-Glass-Mid-Tower-ATX-Case.jpg" class="img-size"  />
+                                <div class="overlay-home">
+                                    <div class="hovertext-home">
+                                        Click to read more
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <br />
+                        <a href="case1.html">Corsair 4000D Mid-Tower ATX Case</a> <br />
+                        <span class="price">$579.00</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <input type="radio" id="tabGear" name="mytabs">
+            <label for="tabGear">New Gear</label>
+            <div class="new_staff_tab">
+                <div class="grid-container-home">
+                    <div class="item1">
+                        <a href="mouse1.html">
+                            <div class="img-container-home">
+                                
+                                <img  src="../img/gear/vaxee.png" class="img-size"  />
+                                <div class="overlay-home">
+                                    <div class="hovertext-home">
+                                        Click to read more
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <br />
+                        <a href="mouse1.html">VAXEE Zygen NP-01S</a> <br />
+                        <span class="price">$999.00</span>
+                    </div>
+
+                    <div class="item1">
+                        <a href="mouse1.html">
+                            <div class="img-container-home">
+                                
+                                <img  src="../img/gear/g pro.jpg" class="img-size"  />
+                                <div class="overlay-home">
+                                    <div class="hovertext-home">
+                                        Click to read more
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <br />
+                        <a href="mouse1.html">Logitech G Pro X Superlight</a> <br />
+                        <span class="price">$1999.00</span>
+                    </div>
+
+                    <div class="item1">
+                        <a href="mouse1.html">
+                            <div class="img-container-home">
+                                
+                                <img  src="../img/gear/g502.jpg" class="img-size"  />
+                                <div class="overlay-home">
+                                    <div class="hovertext-home">
+                                        Click to read more
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <br />
+                        <a href="mouse1.html">Logitech G502 HERO</a> <br />
+                        <span class="price">$999.00</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+            
+            
+    </section>
+    
+    
+
+    </div>
+  </div>
+    <!-- new staff tab section end -->
+
+    
+        
+
+  </div>
+
+    <!-- floatbtn section -->
+    <section class="floatbtn">
+        <button class="chat-btn"> 
+            <ion-icon name="chatbox-ellipses"></ion-icon>
+        </button>
+
+        <div class="chat-popup">
+            <div class="badge">1</div>
+            <div class="chat-area">
+             <div class="income-msg">
+                 <img src="../img/cs.png" class="avatar" alt="">
+                 <span class="msg"> Hi, How can I help you?</span>
+             </div>   
+            </div>
+
+            <div class="input-area">
+                <input type="text" class="chatinput">
+                <button id="emoji-btn"> &#127773;</button>
+                <button class="submit"> <i class="material-icons"> send</i></button>
             </div>
         </div>
-        <div class="login-container"><ion-icon name="person-circle-outline"></ion-icon> <div class="login-text">login</div></div>
-    </div>
-    <!--Tne end of top section  -->
+    </section>
 
-    <!-- Nav -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Games</a></li>
-            <li><a href="#">PC</a></li>
-            <li><a href="#">Gaming Gear</a></li>
-        </ul>
-    </nav>
-    <!-- The end of nav -->
+    <!-- End of floatbtn section -->
+
+    <!-- footer --> 
+    <footer>
+        <div class="art">
+            <div class="content">
+                <section>
+                <p>About Us</p><br>
+                <div class="com_add"> 
+                    Working hour:<br>
+                    <br> 
+                    Mon-Fri: 00:00-23:59<br><br>
+                    Sat-Sun: 12:00-14:00<br>
+                </div>
+                </section>
+            <section>
+            <p>Contact</p><br>
+            <div class="deve_content">
+                <div class="place">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text">8 Hung Lok Road, Hung Hom</span>
+                </div>
+                <div class="phone">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text">+852 2625 4159</span>
+                </div>
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">ccoffice@hkcc-polyu.edu.hk</span>
+                </div>
+            </div>
+            </section>
+            <section>
+              <p>Weekly Newsletter</p><br>
+              <form action="">
+                <input type="email" placeholder="Your Email here" id="" required />
+                <input type="submit" value="Subscribe Now" />
+              </form>
+              <div class="social">
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-telegram-plane"></i>
+              </div>
+            </section>
+          </div>
+          <div class="notice">
+            Copyright Protected &copy;
+            <strong>Handsome</strong>
+          </div>
+        </div>
+      </footer>
+
+    <!-- end of footer -->
+    
+    
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
+<script src="../main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="../js/home.js"></script>
+<script src="../js/chatbtn.js"></script>
 </html>

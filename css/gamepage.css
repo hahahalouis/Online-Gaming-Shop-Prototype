@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.str-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #555;
+}
+
+h3{
+    margin-top: 30px;
+}
+
+.str-li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.str-li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.str-li:last-child {
+    border-bottom: none;
+}
+
+
+
+.str-container_game{
+    float: left;
+    display: grid;
+	grid-template-columns: 175px 1fr;
+	grid-gap:5%;
+	margin:1% 10%;
+}
+
+
+
+.path-container{
+    padding-top:10px;
+}
+
+.path-container a{
+    color:#D83F1E;
+    text-decoration: none;
+}
+
+.cat-title{
+    margin-left:32%;
+}
+
+.grid-container {
+    display: grid;
+    margin-left: 32%;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66%;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px 0;
+  }
+
+.grid-container-2 {
+display: grid;
+margin-left: 32%;
+grid-template-columns: 16.66% 16.66% 16.66% 16.66%;
+grid-gap: 10px;
+background-color: white;
+padding: 10px 0;
+}
+
+.grid-container-3 {
+display: grid;
+margin-left: 32%;
+grid-template-columns: 16.66% 16.66% 16.66% 16.66%;
+grid-gap: 10px;
+background-color: white;
+padding: 10px 0;
+}
+
+.more-link{
+font-size: small;
+    margin-left: 32%;
+}
+  
+.grid-container > div {
+    border-style: groove;
+    border-width:2px;
+    border-radius:3px;
+    background-color: white;
+    text-align: center;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.grid-container-2 > div {
+    border-style: groove;
+    border-width:2px;
+    border-radius:3px;
+    background-color: white;
+    text-align: center;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.grid-container-3 > div {
+    border-style: groove;
+    border-width:2px;
+    border-radius:3px;
+    background-color: white;
+    text-align: center;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.grid-container > div a {
+    text-decoration: none;
+    color:black;
+}
+.grid-container-2 > div a {
+    text-decoration: none;
+    color:black;
+  }
+
+.grid-container-3 > div a {
+    text-decoration: none;
+    color:black;
+}  
+
+.grid-container > div img {
+    vertical-align: middle;
+  }
+
+.grid-container-2 > div img {
+    vertical-align: middle;
+  }
+
+.grid-container-3 > div img {
+    vertical-align: middle;
+  }
+
+
+
+.img-container{
+    position: relative;
+}
+
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: 0.5s ease;
+background-color: black;
+}
+
+.img-container:hover .overlay {
+    opacity: 0.5;
+}
+
+.hovertext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.price{
+color:#D83F1E;
+}
+
+.page-container{
+   
+}
+
+
+
+@media only screen and (max-width:2560px) {
+    
+
+    .path-container{
+        margin-left: 32%;
+    }
+
+}
+
+
+
+@media only screen and (max-width:1560px) {
+    
+    .str-container_game{
+        float: left;
+        display: grid;
+        grid-template-columns: 175px 1fr;
+        grid-gap:5%;
+        margin:5% 3%;
+    }
+
+    .path-container{
+        margin-left: 32%;
+    }
+
+}
+
+
+@media only screen and (max-width:1384px) {
+    
+    .str-container_game{
+        float: left;
+        display: grid;
+        grid-template-columns: 175px 1fr;
+        grid-gap:5%;
+        margin:5% 3%;
+    }
+
+    .path-container{
+        margin-left: 32%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 250px 250px 250px ; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 444px;
+        margin-top: 0px;
+        } 
+    
+     .grid-container-2 {
+        display: grid;
+        grid-template-columns: 250px 250px 250px ; 
+        background-color: white;
+        padding: 10px 0;
+        margin-top: 0px;
+        } 
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 250px 250px 250px ; 
+        background-color: white;
+        padding: 10px 0;
+        margin-top: 0px;
+        } 
+     
+
+}
+
+@media only screen and (max-width:1304px) {
+    .grid-container {
+        margin-left: 420px;
+        } 
+}
+
+@media only screen and (max-width:1226px) {
+    .grid-container {
+        margin-left: 392px;
+        } 
+}
+
+
+@media only screen and (max-width:1168px) {
+    .grid-container {
+        margin-left: 375px;
+        } 
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 328px;
+        margin-top: 0px;
+        } 
+    
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-top: 0px;
+        } 
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-top: 0px;
+        }  
+}
+@media only screen and (max-width:1024px) {
+    
+    .str-container_game{
+        float: left;
+        display: grid;
+        grid-template-columns: 175px 1fr;
+        grid-gap:5%;
+        margin:5% 3%;
+    }
+
+    .path-container{
+        margin-left: 32%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 328px;
+        margin-top: 0px;
+        } 
+    
+     .grid-container-2 {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-top: 0px;
+        } 
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-top: 0px;
+        } 
+     
+}
+
+@media only screen and (max-width:950px) {
+
+
+    .str-container_game{
+        display: grid;
+        grid-gap:5%;
+        margin-left: 0px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 250px;
+        margin-top: 0px;
+    } 
+        
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 250px;
+        margin-top: 0px;
+    } 
+        
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 250px;
+        margin-top: 0px;
+            
+    }   
+    
+    .path-container{
+        padding-top:10px;
+        margin-left:25px;
+    }
+}
+
+
+
+@media only screen and (max-width:850px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 270px;
+        margin-top: 0px;
+    } 
+        
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 270px;
+        margin-top: 0px;
+    } 
+        
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 270pxpx;
+        margin-top: 0px;
+            
+    } 
+
+    .path-container{
+        padding-top:10px;
+        margin-left:270px;
+    }
+
+    .cat-title{
+        margin-left:270px;
+    }
+}
+
+@media only screen and (max-width:680px){
+    .str-container_game{
+        float: none;
+        display: grid;
+        grid-gap:5%;
+        margin:5% 35%;
+    }
+
+    .path-container{
+        margin-left:50px;
+    }
+    
+    .cat-title{
+        margin-left:50px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 40px;
+
+        
+        
+    } 
+    
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 40px;
+
+    } 
+
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 200px 200px 200px; 
+        background-color: white;
+        background-color: white;    
+        padding: 10px 0;
+        margin-left: 40px;
+    } 
+
+}
+
+@media only screen and (max-width:660px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 180px 180px 180px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 40px;
+
+        
+        
+    } 
+    
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 180px 180px 180px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 40px;
+
+    } 
+
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 180px 180px 180px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 40px;
+    } 
+}
+
+@media only screen and (max-width:600px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 160px 160px 160px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 40px;
+
+        
+        
+    } 
+    
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 160px 160px 160px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 40px;
+
+    } 
+
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 160px 160px 160px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 40px;
+    } 
+}
+
+@media only screen and (max-width:540px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 150px 150px 150px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 10px;
+
+    } 
+    
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 150px 150px 150px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 10px;
+    } 
+
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 150px 150px 150px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 10px;
+    } 
+}
+
+@media only screen and (max-width:480px){
+
+    .str-container_game{
+        float: none;
+        display: grid;
+        grid-gap:5%;
+        margin:5% 25%;
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 145px 145px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 40px;
+        margin-top: 0px;
+        
+        
+    } 
+    
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 145px 145px; 
+        background-color: white;
+        padding: 10px 0;
+        margin-left: 40px;
+        margin-top: 0px;
+    } 
+
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 145px 145px; 
+        background-color: white;
+        background-color: white;    
+        padding: 10px 0;
+        margin-left: 40px;
+        margin-top: 0px;
+    } 
+
+
+    .grid-container > div {
+        border-style: groove;
+        background-color: white;
+        text-align: middle;
+        padding: 3%;
+        font-size: 20px;
+    }
+            
+    .grid-container-2 > div {
+        border-style: groove;
+        background-color: white;
+        text-align: middle;
+        padding: 3%;
+        font-size: 20px;
+    }
+    
+    .grid-container-3 > div {
+        border-style: groove;
+        background-color: white;
+        text-align: middle;
+        padding: 3%;
+        font-size: 20px;
+    }
+
+    .grid-container > div img {
+        vertical-align: middle;
+        width: 130px;
+        height:130px;
+      }
+    
+    .grid-container-2 > div img {
+        vertical-align: middle;
+        width: 130px;
+        height:130px;
+      }
+    
+    .grid-container-3 > div img {
+        vertical-align: middle;
+        width: 130px;
+        height:130px;
+    }
+
+    .cat-title{
+        margin-left:40px;
+    }
+
+    .more-link{
+        font-size: small;
+        margin-left: 40px;
+    }
+
+
+    .path-container{
+    padding-top:10px;
+    margin-left:25px;
+    }
+
+}
